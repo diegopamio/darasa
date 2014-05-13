@@ -1,4 +1,7 @@
 {
-  "Welcome": "Bienvenido",
-  "Maintenance_Message": "Sorry, we are maintaining the site right now, pleases go back in a couple of minutes."
+	"Welcome": "Bienvenido",
+	"Maintenance_Message": "Sorry, we are maintaining the site right now, pleases go back in a couple of minutes.",
+	"About": "Acerca de",
+    "Home": "Inicio",
+    "Add New Item": "Agregar nuevo"
 }

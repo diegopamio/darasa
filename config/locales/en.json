@@ -1,4 +1,5 @@
 {
-  "Welcome": "Welcome",
-  "Maintenance_Message": "Sorry, we are maintaining the site right now, pleases go back in a couple of minutes."
+	"Welcome": "Welcome",
+	"Maintenance_Message": "Sorry, we are maintaining the site right now, pleases go back in a couple of minutes.",
+	"About": "About"
 }

@@ -7,13 +7,13 @@ block body
         .container
             .navbar-header
                 button.navbar-toggle(type="button", data-toggle="collapse", data-target=".navbar-collapse")
-                a.navbar-brand(href="#")=__('Darasa')
+                a#titleLabel.navbar-brand(href="#")=__('Darasa')
             .navbar-collapse.collapse
                 ul.nav.navbar-nav
                     li.active
-                        a(href="#")=__('Home')
+                        a#homeButton(href="#")=__('Home')
                     li
-                        a(href="#")=__('About')
+                        a#aboutButton(href="#")=__('About')
     .jumbotron
         .container
             h1=__('Welcome!')

@@ -41,7 +41,10 @@ var configDev = extend({
     capabilities: {
         'browserName': 'chrome',
         'name': "Development Build",
-        'build': "N/A"
+        'build': "N/A",
+        'chromeOptions': {
+            args: ['--lang=ES']
+        }
     },
     verbose: true,
     baseUrl: 'http://localhost:8080/'
