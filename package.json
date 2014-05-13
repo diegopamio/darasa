@@ -34,5 +34,13 @@
     "url": "git://github.com/dpamio/darasa-app.git"
   },
   "author": "dpamio",
-  "license": ""
+  "license": "",
+  "devDependencies": {
+    "protractor": "~0.22.0",
+    "extend": "~1.2.1",
+    "node.extend": "~1.0.10",
+    "mocha": "~1.18.2",
+    "chai": "~1.9.1",
+    "chai-as-promised": "~4.1.1"
+  }
 }
