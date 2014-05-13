@@ -10,6 +10,6 @@ describe('Maintenance Mode Page', function() {
 
         var mensaje = element(by.id('text'));
 
-        expect(mensaje.getText()).to.eventually.equal("Lola, estamos laburando")
+        expect(mensaje.getText()).to.eventually.equal("Sorry, we are maintaining the site right now, pleases go back in a couple of minutes.")
     });
 });
