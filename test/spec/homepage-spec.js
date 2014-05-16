@@ -12,9 +12,7 @@ i18n.configure({
 });
 
 describe('La home page', function() {
-    beforeEach(function(){
-        browser.get('/');
-    });
+    browser.get('/');
 
     describe('debería tener un botón para crear un nuevo item que', function(){
         it('exista', function() {
@@ -23,7 +21,6 @@ describe('La home page', function() {
         it('se llame "' + i18n.__('Add New Item') + '"', function(){
             expect(element(by.id('shareItem')).getText()).to.eventually.equal(i18n.__('Add New Item'))
         });
-        it('cuando haga click muestre un diálogo para agregar un item')
     })
 
     it('debería tener un título para saber de qué se trata:', function() {
