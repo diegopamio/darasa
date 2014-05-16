@@ -4,16 +4,21 @@ block styles
 
 block body
     .navbar.navbar-inverse.navbar-fixed-top(role="navigation")
-        .container
+        .container-fluid
             .navbar-header
-                button.navbar-toggle(type="button", data-toggle="collapse", data-target=".navbar-collapse")
+                button.navbar-toggle(type="button", data-toggle="collapse", data-target="#navBar")
+                    span.sr-only Toggle navigation
+                    span.icon-bar
+                    span.icon-bar
+                    span.icon-bar
                 a#titleLabel.navbar-brand(href="#")=__('Darasa')
-            .navbar-collapse.collapse
+            #navBar.navbar-collapse.collapse
                 ul.nav.navbar-nav
                     li.active
                         a#homeButton(href="#")=__('Home')
                     li
                         a#aboutButton(href="#")=__('About')
+                include partials/login
     .jumbotron
         .container
             h1=__('Welcome!')

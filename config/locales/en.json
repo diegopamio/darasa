@@ -1,5 +1,9 @@
 {
-	"Welcome": "Welcome",
-	"Maintenance_Message": "Sorry, we are maintaining the site right now, pleases go back in a couple of minutes.",
-	"About": "About"
+  "Welcome": "Welcome",
+  "Maintenance_Message": "Sorry, we are maintaining the site right now, pleases go back in a couple of minutes.",
+  "About": "About",
+  "Error.Passport.Password.Wrong": "Whoa, that password wasn't quite right!",
+  "Error.Passport.Password.NotSet": "Oh no, you haven't set a password yet!",
+  "Error.Passport.Username.NotFound": "Uhm, what's your name again?",
+  "Error.Passport.Email.NotFound": "That email doesn't seem right"
 }

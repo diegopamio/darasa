@@ -26,7 +26,7 @@ module.exports.connections = {
   // Installed by default.
   //
   localDiskDb: {
-    adapter: 'sails-disk'
+    adapter: 'sails-memory'
   },
 
   // MySQL is the world's most popular relational database.
