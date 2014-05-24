@@ -118,6 +118,6 @@ module.exports.blueprints = {
   // POST   /foos
   // PUT    /foos/:id?
   // DELETE /foos/:id?
-  pluralize: false
-
+  pluralize: false,
+  autoWatch: true
 };

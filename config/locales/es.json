@@ -1,8 +1,13 @@
 {
-	"Welcome!": "Bienvenido!",
+    "Welcome!": "Bienvenido!",
     "Start collaborating in your course now!": "Empezá YA a colaborar con tu curso!",
-	"Maintenance_Message": "Sorry, we are maintaining the site right now, pleases go back in a couple of minutes.",
-	"About": "Acerca de",
+    "Maintenance_Message": "Sorry, we are maintaining the site right now, pleases go back in a couple of minutes.",
+    "About": "Acerca de",
     "Home": "Inicio",
-    "Add New Item": "Agregar nuevo"
+    "Add New Item": "Agregar nuevo",
+    "Classrooms": "Aulas",
+    "New Classroom": "Nueva Aula",
+    "Add": "Agregar",
+    "Delete": "Eliminar",
+    "New classroom": "Nueva aula"
 }

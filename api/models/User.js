@@ -10,8 +10,9 @@ module.exports = {
     attributes: {
         username  : { type: 'string', unique: true },
         email     : { type: 'email',  unique: true },
-        passports : { collection: 'Passport', via: 'user' }
-
+        passports : { collection: 'Passport', via: 'user' },
+        sharedItems: {collection: 'SharedItem', via: 'sharedBy'},
+        currentClassroom: {model: 'Classroom'}
   }
 };
 

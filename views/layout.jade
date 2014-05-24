@@ -14,10 +14,8 @@ html(ng-app='darasa-app')
     script(src="/js/dependencies/angular-bootstrap/ui-bootstrap-tpls.min.js")
     script(src="/js/dependencies/angular-bootstrap/ui-bootstrap.js")
     script(src="/js/dependencies/angular-bootstrap/ui-bootstrap.min.js")
-    script(src="/js/dependencies/angular-sails/dist/angular-sails.js")
-    script(src="/js/dependencies/angular-sails/dist/angular-sails.min.js")
-    script(src="/js/dependencies/angular-sails/src/ngSails.js")
-    script(src="/js/dependencies/angular-sails/src/service/angular-sails.js")
+    script(src="/js/dependencies/angular-sails-bind/dist/angular-sails-bind.js")
+    script(src="/js/dependencies/angular-xeditable/dist/js/xeditable.js")
     script(src="/js/app.js")
     script(src="/js/header.js")
     // SCRIPTS END
@@ -25,12 +23,13 @@ html(ng-app='darasa-app')
     link(rel="stylesheet", href="/styles/importer.css")
     // STYLES END
     // TEMPLATES
-    
+    script(type="text/javascript", src="/jst.js")
     // TEMPLATES END
 
     block styles
     link(rel="stylesheet",href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css")
     link(rel="stylesheet",href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css")
+    link(rel="stylesheet",href="/js/dependencies/angular-xeditable/dist/css/xeditable.css")
   body
     block body
 
