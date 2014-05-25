@@ -17,7 +17,7 @@
   "dependencies": {
     "angular": "~1.2.16",
     "angular-bootstrap": "~0.11.0",
-    "angular-sails-bind": "~0.0.7",
+    "angular-sails-bind": "~0.0.11",
     "angular-xeditable": "~0.1.8"
   }
 }
