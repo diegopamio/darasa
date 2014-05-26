@@ -17,7 +17,7 @@ var expect = chai.expect;
 
 i18n.configure({
     locales: ['en', 'es'],
-    defaultLocale: 'es',
+    defaultLocale: process.env.NODE_ENV === "production" ? 'en' : 'es',
     directory: './config/locales'
 });
 

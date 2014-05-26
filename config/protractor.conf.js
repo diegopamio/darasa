@@ -1,3 +1,6 @@
+/*global extend:false*/
+/*global require:false*/
+/*global process:false*/
 /**
  * Created by dpamio on 24/02/14.
  */
@@ -44,11 +47,11 @@ var configDev = extend({
         'name': "Development Build",
         'build': "N/A",
         'chromeOptions': {
-            args: ['--lang=ES']
+            args: ['--lang=en-us']
         }
     },
     verbose: true,
     baseUrl: 'http://127.0.0.1:8080/'
 }, genericConfig);
 
-exports.config = process.env.NODE_ENV == "production" ? configProd : configDev;
+exports.config = process.env.NODE_ENV === "production" ? configProd : configDev;
