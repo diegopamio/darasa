@@ -36,7 +36,7 @@ block body
                                 form(role='form', name='newClassroomForm', ng-submit="addNewClassroom()")
                                     input(placeholder=''+ __("New classroom"), ng-model='newClassroom.name', required)
                                     span(ng-show="submitted && form.amount.$error.required")= __('You need a name for your classroom')
-                                    button.badge.btn.btn-success(type='submit', ng-disabled="newClassroomForm.$invalid", style="float: right;")= __('Add')
+                                    button.btn.btn-success.badge(type='submit', ng-disabled="newClassroomForm.$invalid", style="float: right;")= __('Add')
                             li.list-group-item(ng-repeat="classroom in classrooms")
                                 a(href="#", editable-text="classroom.name") {{classroom.name}}
-                                button.badge.btn.btn-danger(href='', ng-click='classrooms.splice(classrooms.indexOf(classroom), 1)')= __('Delete')
+                                button.btn.btn-danger.badge(href='', ng-click='classrooms.splice(classrooms.indexOf(classroom), 1)')= __('Delete')
