@@ -37,7 +37,8 @@
   "scripts": {
     "start": "node app.js",
     "debug": "node debug app.js",
-    "test": "protractor config/protractor.conf.js"
+    "test": "protractor config/protractor.conf.js",
+    "postinstall": "node_modules/.bin/bower install"
   },
   "main": "app.js",
   "repository": {
@@ -55,5 +56,5 @@
     "chai-as-promised": "~4.1.1",
     "i18n": "~0.4.1",
     "sails-generate-auth": "~0.1.4"
-  }
+  },
 }
