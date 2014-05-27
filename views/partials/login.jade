@@ -4,5 +4,7 @@ ul.nav.navbar-nav.navbar-right(ng-show="user")
         li.dropdown
             a(href='/logout')
                 | {{user}} (Logout)
+                if (locals.user && locals.user.isProfessor)
+                    = __('Teacher Mode')
 form.navbar-form.navbar-right(role="form",action="/auth/linkedin",method="get",ng-init="#{init}")
     button.btn.btn-success(type="submit",ng-hide="user")=__('Sign in')
