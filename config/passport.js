@@ -35,10 +35,11 @@ module.exports.passport = {
       name: 'LinkedIn',
       protocol: 'oauth',
       strategy: require('passport-linkedin').Strategy,
+      scope: ['r_basicprofile', 'r_fullprofile', 'r_emailaddress'],
       options: {
           consumerKey: '75666zy446g9v3',
           consumerSecret: 'sfCQNKCJYOGTudsk',
-          profileFields: ['id', 'first-name', 'last-name', 'email-address','public-profile-url'],
+          profileFields: ['id', 'first-name', 'last-name', 'email-address', 'public-profile-url', 'positions']
       }
   }
 /*  github: {
