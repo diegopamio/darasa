@@ -11,7 +11,9 @@ module.exports = {
       attendees: {
           collection: 'User',
           via: 'currentClassroom'
-      }
+      },
+      createdBy: {model: 'User'}
+
   }
 };
 

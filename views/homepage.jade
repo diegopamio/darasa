@@ -26,7 +26,7 @@ block body
             button#shareItem.btn.btn-primary(ng-click='addItem')=__('Add New Item')
     .container
         .row
-            .col-md-4
+            .col-md-6
                 .panel.panel-default(ng-controller="ClassroomListCtrl")
                     .panel-heading
                         h3.pannel-title= __('Classrooms')
@@ -40,5 +40,7 @@ block body
                                         button.btn.btn-success.badge(type='submit', ng-disabled="newClassroomForm.$invalid", style="float: right;")= __('Add')
                             li.list-group-item(ng-repeat="classroom in classrooms" ng-show="classrooms.length > 0")
                                 a(href="#", editable-text="classroom.name") {{classroom.name}}
+                                = __('created by')
+                                span(style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;"){{classroom.createdBy.name}}
                                 button.btn.btn-danger.badge(href='', ng-click='classrooms.splice(classrooms.indexOf(classroom), 1)')= __('Delete')
                             .alert.alert-warning(ng-show="classrooms.length === 0")=__('There are no classrooms yet')

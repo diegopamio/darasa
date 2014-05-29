@@ -6,5 +6,6 @@
 	"Error.Passport.Password.NotSet": "Oh no, you haven't set a password yet!",
 	"Error.Passport.Username.NotFound": "Uhm, what's your name again?",
 	"Error.Passport.Email.NotFound": "That email doesn't seem right",
-	"Add New Item": "Add New Item"
+	"Add New Item": "Add New Item",
+    "created by": " by "
 }
